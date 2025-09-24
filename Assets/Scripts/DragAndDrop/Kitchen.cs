@@ -1,8 +1,10 @@
 using UnityEngine;
 
+
 public class Kitchen : MonoBehaviour
 {
     public GameObject chef;
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -10,6 +12,8 @@ public class Kitchen : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             chef.SetActive(true);
+            MoneyManager.instance.moneyDPS++;
+
         }
 
     }
