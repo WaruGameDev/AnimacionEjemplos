@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60c3e09284ea8040a333d22bc884530, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: Assembly-CSharp::ItemInventory
+  id: apple
+  itemName: Manzana
+  itemIcon: {fileID: 21300000, guid: 0c193b66f3424fe4d8633417421fa33c, type: 3}
+  itemGameObject: {fileID: 919132149155446097, guid: 5c681cddcd485cb48a97fefe4a9331f3, type: 3}
