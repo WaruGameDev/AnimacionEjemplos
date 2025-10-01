@@ -60,6 +60,8 @@ public class Inventory : MonoBehaviour
     }
     public void RefreshUI()
     {
+       
+
         foreach(Transform t in slotContainer)
         {
             Destroy(t.gameObject);
